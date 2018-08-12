@@ -1,0 +1,267 @@
+/*First page*/
+body{
+	margin:0;
+	padding:0;
+}
+
+.container{
+	margin-right : 50px;
+}
+
+/*First page - menu(left side)*/
+.menu{
+	padding-top : 10px;
+	margin-left: -10px;
+}
+
+.menu h3{
+	float : left;
+	letter-spacing: 2px;
+	font-size : 1.5em;
+}
+
+.menu h3 a{
+	text-decoration : none;
+	color: #D3D3D3;
+	margin-left : 40px;
+}
+
+.menu h3 a:hover {
+	color : #F84114;
+	font-weight: bold;
+	text-decoration: none;
+	cursor : pointer;
+}
+
+/*First page - name(right side)*/
+.name h1 {
+	color : #FF4500;
+	font-family: Open Sans;
+	text-align: right;
+	font-size : 100px;
+	padding-top : 70px;
+	margin-bottom : -20px;
+}
+
+.name h3 {
+	letter-spacing: 2px;
+	font-size : 30px;
+	text-align: right;
+	font-family : Open Snas;
+	font-weight: normal;
+}
+
+/*First page - links(right side)*/
+.links{
+	text-align: right;
+	margin-right: 0px;
+}
+
+.fab{
+	color : black;
+	font-size: 30px;
+	letter-spacing: 40px;
+	margin-top : 50px;
+}
+
+/*Second page - About Me - structure*/
+.aboutMe{
+	background-color: #FF4500;
+	text-align: center;
+	padding : 40px;
+	line-height : 1.8em;
+}
+
+.aboutMe .frame {
+	background-color : white;
+	padding: 0;
+}
+
+.aboutMe h1 {
+	font-family : Merienda One;
+	font-size : 2em;
+}
+
+.aboutMe p {
+	text-align: left;
+	padding : 0 50px;
+	margin : 20px;
+	text-align: left;
+	font-family : Montserrat;
+	font-weight: normal;
+	font-size : 18px;
+	line-height: 1.5em;
+}
+
+img{
+	width : 300px;
+	height: 300px;
+	/*float : left;*/
+	margin-left: 20px;
+	margin-right : 20px;
+	border-radius: 50%;
+}
+
+/*Second page - 3 why*/
+.v{
+	border-left : 6px solid #FFE4B5;
+	height : 1480px;
+	margin-left : 650px;
+	display: inline-block;
+	position: relative;
+}
+
+.dot{
+	height: 25px;
+    width: 25px;
+    background-color: #FFE4B5;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    margin-left : -15px;
+}
+
+.card{
+  position: relative;
+  width: 400px;
+  position: absolute;
+  margin : 30px;
+  position: relative;
+}
+
+.card h3{
+	font-family: lobster;
+	text-align: center;
+	font-size : 1.7em;
+	letter-spacing: 1px;
+}
+
+.card img{
+	width : 60px;
+	height: 60px;
+	padding-left : 30px;
+	margin-bottom : 30px;
+	float : left;
+}
+
+.why{
+	padding-top : 50px;
+}
+
+.why h1{
+	font-family: lobster;
+	text-align: center;
+	font-size : 4em;
+	letter-spacing: 20px;
+	background : #FFE4B5;
+	vertical-align: baseline;
+}
+
+.why p {
+	margin : 20px;
+	text-align: left;
+	font-family : Montserrat;
+	font-weight: normal;
+	font-size : 16px;
+	line-height: 1.5em;
+}
+
+span{
+	color: #FF4500;
+	font-weight: bold;
+}
+
+
+/*Third page - contact Me*/
+
+.contact{
+	background-color : #FF4500;
+	color : white;
+	font-family: Montserrat;
+}
+
+.contact p{
+	text-align: center;
+	margin : 10px;
+}
+
+.contact-title{
+	color : orange;
+}
+
+.contact-title h3{
+	font-size : 2em;
+	margin-top: 0px;
+}
+
+.contact-form {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  background: white;
+  padding: 30px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea{
+	width : 95%;
+	border : 1px solid #ccc;
+	background : white;
+	margin : 0 0 5px;
+	padding : 10px;
+}
+
+.contact-form textarea {
+  height: 150px;
+  max-width : 100%;
+  resize: none;
+}
+
+.contact-form input:focus, .contact-form textarea:focus{
+	outline: 0;
+	border: 1px solid #444;
+}
+
+.contact-form a{
+	text-decoration: none;
+	color : white;
+}
+
+.contact-form button{
+  cursor: pointer;
+  width: 100.5%;
+  border: none;
+  background: orange;
+  color: white;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.contact-form button:hover {
+  background: #43A047;
+  transition: background 0.3s ease-in-out;
+}
+
+
+/*back-to-top : arrow*/
+.fas {
+	position : fixed;
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: -25px; /* Place the button 30px from the right */
+    padding: 15px; /* Some padding */
+    font-size: 60px; 
+	float: right; 
+	padding-right: 50px;
+	color : yellow;
+	padding-top: 300px;
+	cursor: pointer;
+}
+
+#back-to-top{
+	display: none;
+}
+
