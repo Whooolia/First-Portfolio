@@ -77,6 +77,11 @@ body{
 	padding: 0;
 }
 
+.aboutMe .title {
+	font-family : Merienda One;
+	font-size : 2.5em;
+}
+
 .aboutMe h1 {
 	font-family : Merienda One;
 	font-size : 2em;
